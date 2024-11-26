@@ -5,6 +5,8 @@ import NavLink from "./components/NavLink";
 import Nav from "./components/Nav";
 import HeroSection from "./components/HeroSection";
 import SkillsSection from "./components/SkilllsSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Nav />
       <HeroSection />
       <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
     </>
   );
 }

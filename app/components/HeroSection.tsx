@@ -13,7 +13,7 @@ import { FaX, FaXTwitter } from "react-icons/fa6";
 
 export default function HeroSection() {
   return (
-    <div className="py-[60px] px-20">
+    <section id="hero" className="py-[40px] px-20">
       <div className=" flex">
         <div className="w-2/3">
           <div className="mb-8 text-4xl leading-[56px]">
@@ -51,6 +51,6 @@ export default function HeroSection() {
           <Image alt="heroim" src={heroimg} width={740 / 2} height={740 / 2} />
         </div>
       </div>
-    </div>
+    </section>
   );
 }

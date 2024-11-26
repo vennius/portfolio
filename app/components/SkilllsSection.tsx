@@ -12,7 +12,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 export default function SkillsSection() {
   return (
-    <div className="py-12 px-20 flex flex-col gap-14">
+    <section id="skills" className="py-12 px-20 flex flex-col gap-14">
       <div className="text-4xl text-center">
         My <span className="font-extrabold">Skills</span>
       </div>
@@ -28,6 +28,6 @@ export default function SkillsSection() {
         <SkillCard icon={FaHtml5} title="HTML" />
         <SkillCard icon={FaCss3} title="CSS" />
       </div>
-    </div>
+    </section>
   );
 }
