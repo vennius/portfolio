@@ -12,7 +12,7 @@ export default function ContactSection() {
       </div>
       <div className="w-1/2 flex flex-col justify-center">
         <div className="text-4xl font-extrabold mb-3">
-          Let's <span className="underline">talk</span> for
+          Let&apos;s <span className="underline">talk</span> for
         </div>
         <div className="text-4xl font-extrabold mb-5">Something special</div>
         <p className="text-zinc-500 mb-10">

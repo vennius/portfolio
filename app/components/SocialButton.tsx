@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { IconType } from "react-icons";
-import { LuDownload } from "react-icons/lu";
 
 interface props {
   icon: IconType;

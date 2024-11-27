@@ -1,5 +1,4 @@
 import { IconType } from "react-icons";
-import { SiJavascript } from "react-icons/si";
 
 interface props {
   icon: IconType;

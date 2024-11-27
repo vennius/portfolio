@@ -1,14 +1,7 @@
 import Image from "next/image";
 import heroimg from "../images/heroimg.jpg";
 import SocialButton from "./SocialButton";
-import {
-  FaDiscord,
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaSnapchatGhost,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaGithub, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
 import { FaX, FaXTwitter } from "react-icons/fa6";
 
 export default function HeroSection() {
@@ -18,7 +11,7 @@ export default function HeroSection() {
         <div className="w-2/3">
           <div className="mb-8 text-4xl leading-[56px]">
             <div className="font-semibold">
-              Hello I'm{" "}
+              Hello I&apos;m{" "}
               <span className="font-extrabold">Stevennius Chandra.</span>
             </div>
             <div>
