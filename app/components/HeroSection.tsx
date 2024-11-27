@@ -2,7 +2,7 @@ import Image from "next/image";
 import heroimg from "../images/heroimg.jpg";
 import SocialButton from "./SocialButton";
 import { FaGithub, FaInstagram, FaSnapchatGhost } from "react-icons/fa";
-import { FaX, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 export default function HeroSection() {
   return (
